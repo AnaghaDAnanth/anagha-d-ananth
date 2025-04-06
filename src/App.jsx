@@ -4,16 +4,20 @@ import Home from './components/Home.jsx'
 
 function App() {
   return (
-    <body style={{margin: 0, overflow: 'hidden'}} className="bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
-      <div style={{
-          transform: "scale(0.9)",
-          transformOrigin: "top left",
-          width: `${100 / 0.9}%`
-        }}>
+    <div style={{ overflow: 'hidden', height: '100vh', width: '100vw' }}>
+      <div
+        style={{
+          transform: 'scale(0.9)',
+          transformOrigin: 'top left',
+          width: `${100 / 0.9}%`,  // ~111.11%
+          height: `${100 / 0.9}%`, // Optional, helps avoid bottom space
+        }}
+        className="bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"
+      >
         <SocialSidebar />
         <Home />
       </div>
-  </body>
+    </div>
   )
 }
 
