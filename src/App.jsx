@@ -8,8 +8,7 @@ function App() {
       <div style={{
           transform: "scale(0.9)",
           transformOrigin: "top left",
-          width: `${100 / 0.9}%`,
-          height: `${100 / 0.9}%`,
+          width: `${100 / 0.9}%`
         }}>
         <SocialSidebar />
         <Home />
