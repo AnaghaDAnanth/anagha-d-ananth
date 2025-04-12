@@ -113,12 +113,12 @@ function Home () {
 
                 <div className="w-[55%] mr-30 top-0 max-h-screen overflow-auto pr-6 text-justify text-gray-800">
                     <hr id="about" className="w-48 h-0 mt-0" />
-                    <p className="mt-25"> I’m a full stack developer I’m a full stack developer who lives somewhere between the elegance 
+                    <p className="mt-25"> I’m a developer who lives somewhere between the elegance 
                         of clean code and the chaos of late-night debugging sessions. I'm passionate about building seamless, end-to-end digital 
                         experiences that are as beautiful as they are functional. I thrive at the intersection of thoughtful design and scalable 
                         engineering — crafting applications that not only look polished but are architected for performance, maintainability, and 
                         accessibility. </p><br></br>
-                    <p> Right now, I’m crafting code at <text className="text-gray-700 font-bold font-medium hover:text-amber-400 transition-all duration-300"> SAP Labs </text>, where I work across the stack to bring new features to life — from designing APIs
+                    <p> Right now, I’m crafting code at <a className="text-gray-700 font-bold font-medium hover:text-amber-400 transition-all duration-300" href="https://www.sap.com/india/about/labs-india.html"> SAP Labs </a>, where I work across the stack to bring new features to life — from designing APIs
                         and managing data flows to refining user interfaces for clarity and usability. I also play an active role in maintaining our
                         component libraries and engineering standards to ensure consistency and efficiency across teams. </p><br></br>
                     <p> Over the years, I’ve had the chance to wear many hats — including a stint in the data science and machine learning world. 
@@ -137,7 +137,7 @@ function Home () {
                     
                     <Projects/>
 
-                    <p className="ml-5 mb-10 text-xs"> Design inspired by Brittany Chiang. Coded in Visual Studio Code. Built with React and Tailwind CSS, deployed with Vercel. </p>
+                    <p className="ml-5 mb-10 text-xs"> Coded in Visual Studio Code. Built with React and Tailwind CSS, deployed with Vercel. </p>
                 </div>
         </section>
     );

@@ -19,7 +19,7 @@ function Projects () {
                 hover:border-yellow-400 hover:shadow-lg hover:shadow-yellow-200/30">
                 <h1 className="text-xl font-bold text-gray-600"> DevOrbit – A Complete Orbit around the DevOps Toolchain </h1>
                 <p className="mt-3 text-sm/6"> A hands-on DevOps learning project covering the full toolchain—from local Flask app development to deployment on Cloud Foundry.
-                This project <text className="font-medium">explores and integrates key DevOps tools and concepts </text> including containerization, CI/CD, infrastructure as code, cloud deployment, and automation pipelines. Built to provide end-to-end exposure to real-world DevOps workflows.  </p>
+                This project <text className="font-medium">explores and integrates key DevOps tools and concepts </text> including CI/CD, infrastructure as code, cloud deployment, and automation pipelines. Built to provide end-to-end exposure to real-world DevOps workflows.  </p>
                 <div className=' flex flex-row'>
                     <div className="mt-5 mr-5 text-sm underline hover:text-base hover:text-yellow-400 transition-all duration-300"> <a href="https://github.com/AnaghaDAnanth/DevOrbit" target="_blank" rel="noopener noreferrer"> View GitHub </a> </div>
                     <div className="mt-5 mr-5 text-sm underline hover:text-base hover:text-yellow-400 transition-all duration-300"> <a href="https://github.com/AnaghaDAnanth/DevOrbit" target="_blank" rel="noopener noreferrer"> View Documentation </a> </div>
@@ -27,7 +27,7 @@ function Projects () {
             </div>
 
 
-            {/* Project 3 */}
+            {/* Project 3
             <div className="border border-transparent rounded-3xl p-7 transition-all duration-300 
                 hover:border-yellow-400 hover:shadow-lg hover:shadow-yellow-200/30">
                 <h1 className="text-xl font-bold text-gray-600"> Ecological Footprint </h1>
@@ -37,9 +37,7 @@ function Projects () {
                     <div className="mt-5 mr-5 text-sm underline hover:text-base hover:text-yellow-400 transition-all duration-300"> <a href="https:/google.com" target="_blank" rel="noopener noreferrer"> View GitHub </a> </div>
                     <div className="mt-5 mr-5 text-sm underline hover:text-base hover:text-yellow-400 transition-all duration-300"> <a href="https:/google.com" target="_blank" rel="noopener noreferrer"> View Documentation </a> </div>
                 </div>
-            </div>
-
-
+            </div> */}
             
             <div className="p-10"> </div>
         </section>
